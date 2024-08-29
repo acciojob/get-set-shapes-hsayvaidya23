@@ -11,12 +11,12 @@ class Rectangle {
 		return this._height;
 	}
 	getArea(){
-		return this.width*this.height;
+		return (this.width * this.height);
 	}
 }
 
 class Square extends Rectangle {
-	super(width, height);
+
 	constructor(side){
 		super(side, side);
 		this._side = side;
